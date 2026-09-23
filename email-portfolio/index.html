@@ -406,31 +406,42 @@
         }
       ],
       skills: [{
-          title: 'Technical Proficiency',
-          images: [
-            'assets/images/html-icon.png',
-            'assets/images/css-icon.jpg',
-            'assets/images/js-icon.jpg'
-          ],
-          items: ['Bulletproof HTML / CSS', 'Dynamic Content', 'Responsive Design', 'CSS Inlining Mastery']
+          title: 'Build',
+          items: [
+            { label: 'Custom HTML/CSS Email', icons: [] },
+            { label: 'CSS Inlining', icons: [] },
+            { label: 'Dynamic Content', icons: [] },
+            { label: 'Responsive Design', icons: [] },
+            { label: 'Dark Mode', icons: [] },
+            { label: 'Outlook (MSO) Fixes', icons: [] },
+            { label: 'JavaScript', icons: ['assets/images/js-icon.jpg'] }
+          ]
         },
         {
-          title: 'Multi-Platform Email Solutions',
-          images: [
-            'assets/images/hubspot-icon.png',
-            'assets/images/everyaction-logo.png',
-            'assets/images/en-logo.jpg'
-          ],
-          items: ['Hubspot / Mailchimp', 'Engaging Networks', 'Salesforce Marketing Cloud', 'NGP / EveryAction & More']
+          title: 'Platforms',
+          items: [
+            { label: 'Salesforce', icons: [] },
+            { label: 'Pardot', icons: [] },
+            { label: 'HubSpot', icons: [] },
+            { label: 'Mailchimp', icons: [] },
+            { label: 'Engaging Networks', icons: [] },
+            { label: 'Virtuous', icons: [] },
+            { label: 'DotDigital', icons: [] },
+            { label: 'NGP', icons: [] },
+            { label: 'Bonterra', icons: [] },
+            { label: 'ActionKit', icons: [] },
+            { label: 'EveryAction', icons: [] }
+          ]
         },
         {
-          title: 'Email Strategy & Optimization',
-          images: [
-            'assets/images/litmus-logo.png',
-            'assets/images/email-on-acid-logo.png',
-            'assets/images/email-strategy-icon.jpg'
-          ],
-          items: ['Email Rendering Testing (Litmus, Email on Acid)', 'A/B/N Testing & Optimization', 'Cross-Client Compatibility Testing', 'Spam & Deliverability Testing']
+          title: 'Testing',
+          items: [
+            { label: 'Litmus', icons: [] },
+            { label: 'Email on Acid', icons: [] },
+            { label: 'A/B/N Testing', icons: [] },
+            { label: 'Cross-Client Compatibility Testing', icons: [] },
+            { label: 'Spam & Deliverability Testing', icons: [] }
+          ]
         }
       ]
     };
@@ -503,18 +514,15 @@
       if (!container) return;
       container.innerHTML = DATA.skills.map(cat => `
                 <div class="glass-card p-12 rounded-[3rem] text-left border-b-4 border-emerald-500/20 hover:border-emerald-500/50 transition-all duration-300">
-                    <div class="flex justify-start gap-6 mb-10">
-                        ${cat.images.map(img => `<img src="${img}" class="skill-thumb" alt="">`).join('')}
-                    </div>
                     <h3 class="text-2xl font-black text-white mb-10 uppercase tracking-tighter">${cat.title}</h3>
-                    <ul class="space-y-4">
+                    <div class="flex flex-wrap gap-3">
                         ${cat.items.map(item => `
-                            <li class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-emerald-400 transition-colors flex items-center gap-2">
-                                <span class="w-1 h-1 bg-emerald-500 rounded-full opacity-40"></span>
-                                ${item}
-                            </li>
+                            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-slate-300 text-[10px] font-black uppercase tracking-widest">
+                                ${item.icons.map(icon => `<img src="${icon}" class="w-4 h-4 rounded-sm object-contain" alt="">`).join('')}
+                                ${item.label}
+                            </span>
                         `).join('')}
-                    </ul>
+                    </div>
                 </div>
             `).join('');
     }
