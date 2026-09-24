@@ -248,7 +248,7 @@
               Pixel-perfect email that looks <span class="text-gradient">right in every inbox.</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 leading-relaxed max-w-xl mx-auto md:mx-0">
-              I hand-code every email — tables, inline styles, Outlook conditionals — so it renders right in Gmail, Outlook, and Apple Mail. I also build it into the platform that actually sends it: Salesforce, Pardot, HubSpot, Mailchimp, Virtuous, NGP and ActionKit.
+              I hand-code every email — tables, inline styles, Outlook conditionals so it renders correctly in Gmail, Outlook, and Apple Mail. I also build it into the platform that actually sends it: Salesforce, Pardot, HubSpot, Mailchimp, Virtuous, NGP and ActionKit.
             </p>
             <p class="text-sm md:text-base text-slate-500 leading-relaxed max-w-xl mx-auto md:mx-0 mt-4">
               Every email is QA tested in Litmus and Email on Acid before it gets scheduled.
@@ -293,7 +293,7 @@
         <div class="mb-16">
           <center>
             <h2 class="text-4xl md:text-5xl font-black text-white mb-4 uppercase">Selected Work</h2>
-            <p class="text-sm text-slate-500 max-w-2xl mx-auto">Personal projects. Each email is a recreation of a promotional email from my own inbox, built to show my work from my own prebuilt template. Not affiliated with or endorsed by the brands shown.</p>
+            <p class="text-sm text-slate-500 max-w-2xl mx-auto">Personal projects. Each email is a recreation of an email from my own inbox, built to show my work from my own prebuilt template. Not affiliated with or endorsed by any of the brands shown.</p>
           </center>
         </div>
         <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
@@ -349,10 +349,10 @@
           category: 'Ecommerce',
           year: '2024',
           description: 'Marketing email for Fungi Perfecti promoting their Host Defense® Mushroom Extracts, developed using a custom, reusable HTML email template with responsive and client-safe styling.',
-          problem: 'I received this promotional email as a subscriber and rebuilt it from scratch as a production-ready template — this is not client work for the brand. The challenge was matching the original layout while adding MSO conditional markup for Outlook, four responsive breakpoints, and a dark-mode block.',
-          approach: 'Rebuilt it as a 600px table-based layout with MSO conditional markup for Outlook, four responsive breakpoints down to 400px, and a prefers-color-scheme block for dark-mode inboxes.',
+          problem: 'I received this promotional email as a subscriber and rebuilt it. This is not client work for the Fungi Perfecti brand. The problem is always matching the original layout here with my existing template.',
+          approach: 'Produced as a 600px table-based layout with MSO conditional markup for Outlook, responsive breakpoints down to 400px, and it works for dark-mode inboxes.',
           stack: ['HTML email tables', 'Inline CSS', 'MSO conditional comments', 'CSS media queries', 'prefers-color-scheme'],
-          result: '14.2KB — well under Gmail\'s 102KB clipping limit. 7 modular sections, all 10 images have alt text, with dark mode and mobile breakpoints built in.',
+          result: 'A responsive, dark-mode-ready email with 6 images and alt text, 3 content blocks, and a clean layout that renders correctly across Gmail, Outlook, and Apple Mail. Just looking at the email may boost your health and immunity.',
           image: 'assets/images/fungi-email-preview.jpg',
           stats: [{
             label: 'Promotional',
@@ -368,11 +368,11 @@
           title: 'Warhammer 40K News',
           category: 'Newsletter',
           year: '2024',
-          description: 'Newsletter-style email for Warhammer 40k hobbyists, combining news, inspiration, and featured content in a clean, readable email format.',
-          problem: 'I received this newsletter as a subscriber and rebuilt it from scratch as a production-ready template — this is not client work for Warhammer. The challenge was reproducing its two-up content blocks and bulletproof CTA buttons using MSO conditional column-stacking and VML roundrect fallbacks for Outlook.',
-          approach: 'Built a modular table layout with MSO conditional column-stacking for the two-up content blocks, VML roundrect buttons so CTAs stay bulletproof in Outlook, a {{FirstName}} personalization token, and an animated GIF section.',
+          description: 'Newsletter-style email for Warhammer 40K hobbyists, combining news, inspiration, and featured content in a clean, readable email format.',
+          problem: 'I subscribe to this newsletter and rebuilt it as a practice piece with my own template. Not client work for Games Workshop. The challenge was matching the content blocks and making the buttons work in Outlook.',
+          approach: 'I built a modular table layout with MSO conditional column stacking for the content blocks, VML roundrect buttons so CTAs stay bulletproof in Outlook, a {{FirstName}} personalization token with fallback, and an animated GIF section.',
           stack: ['HTML email tables', 'VML (Outlook bulletproof buttons)', 'MSO conditional comments', 'CSS media queries', 'Personalization merge tags'],
-          result: '48.1KB — still under Gmail\'s 102KB clipping limit. 5 labeled sections in the source, all 19 images have alt text, with dark mode and a mobile breakpoint built in.',
+          result: 'A beautifully responsive newsletter email with 6 content blocks, 12 images with alt text, and a dark mode block for inboxes that support it. For the Emperor!',
           image: 'assets/images/warhammer-email-preview.jpg',
           stats: [{
             label: 'Weekly Periodical',
@@ -388,11 +388,11 @@
           title: 'MyProtein Order Confirmation',
           category: 'Transactional',
           year: '2025',
-          description: 'Transactional order delivered email for MyProtein, built with a clean, accessible layout to confirm delivery, summarize order details, and reinforce brand trust.',
-          problem: 'I received this order confirmation as a customer and rebuilt it from scratch as a production-ready template — this is not client work for MyProtein. The challenge was reproducing the delivery-status graphic, animated tracking GIF, and account cross-sell badges within the same responsive, dark-mode-ready structure as the other templates.',
-          approach: 'Used the same responsive table structure and breakpoints as the other templates, an animated GIF for the delivery-tracking visual, and plain image-linked badges for app download, SMS sign-up, and referrals.',
+          description: 'Order-delivered transactional email for MyProtein. Built with the same clean template as the other projects. It confirms delivery, summarizes the order, and points to the app, SMS sign-up, and referrals.',
+          problem: 'I got this order confirmation as a customer and rebuilt it using my production-ready template. This is not client work for MyProtein. The toughest part of this email was reproducing this email with the same responsive, dark-mode-ready structure as the other templates.',
+          approach: 'Used the same responsive table structure and breakpoints as the other emails as it was built using that same basic template. The delivery tracking is an animated GIF, and the app download, SMS sign-up, and referral badges are plain linked images.',
           stack: ['HTML email tables', 'Inline CSS', 'CSS media queries', 'prefers-color-scheme', 'Animated GIF'],
-          result: '16.1KB — well under Gmail\'s 102KB clipping limit. 7 modular sections, all 12 images have alt text, with dark mode and mobile breakpoints built in.',
+          result: 'A responsive muscle building email that renders correctly across the big three inbox clients (Gmail, Outlook, Apple Mail), with 8 images and alt text, a dark mode block, and a 600px table layout. Also made some gains while hitting my protein macros.',
           image: 'assets/images/myprotein-email-preview.jpg',
           stats: [{
             label: 'Triggered',
