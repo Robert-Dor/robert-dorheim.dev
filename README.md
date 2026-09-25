@@ -28,7 +28,7 @@ Hey there! I’m **Robert**, a front-end / email / web dev enthusiast. This is m
 
 - 📧 Email: dorheimjr@gmail.com  
 - 🌐 Website: [www.robert-dorheim.dev](https://www.robert-dorheim.dev)  
-- 💻 GitHub: [github.com/yourusername](https://github.com/Robert-Dor)  
+- 💻 GitHub: [github.com/Robert-Dor](https://github.com/Robert-Dor)  
 
 ---
 
