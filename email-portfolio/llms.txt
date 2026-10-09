@@ -1,0 +1,47 @@
+# Robert Dorheim | Email Developer
+
+> Robert Dorheim is an email developer who hand-codes HTML email and surveys for non-profit, political, and advocacy organizations and builds them into the sending platform. Open to full-time roles and consulting.
+
+## Summary
+- Role: Email Developer, based in California, USA
+- Experience: Freelance email developer/production at MissionWired since August 2022; trained at CodingPhase (HTML Email Developer, June 2022)
+- Work: hand-coded table-based HTML email, CSS inlining, Outlook (MSO/VML) fixes, dark mode, responsive layouts
+- Platforms: Salesforce, Pardot, HubSpot, Mailchimp, Engaging Networks, Virtuous, DotDigital, NGP, Bonterra, ActionKit, EveryAction
+- Also builds: simple, secure websites for small businesses (e.g. https://bipitybopitycakes.com, a custom cake bakery site in Lodi, California)
+- Search visibility: technical SEO, answer engine optimization (AEO), and generative engine optimization (GEO), including structured data, FAQ markup, and llms.txt
+- Testing: Litmus, Email on Acid, A/B/N testing, deliverability checks
+
+## Pages
+- [Portfolio home](https://robert-dorheim.dev/): about, experience, selected work, skills, FAQ, contact
+
+## Portfolio emails (personal recreations, not client work)
+- [Fungi Perfecti Extracts email (promotional)](https://robert-dorheim.dev/email-projects/ecommerce-upsell/index.html)
+- [Warhammer 40K newsletter](https://robert-dorheim.dev/email-projects/newsletter/index.html)
+- [MyProtein order confirmation (transactional)](https://robert-dorheim.dev/email-projects/transactional/index.html)
+- [Source code on GitHub](https://github.com/Robert-Dor/robert-dorheim.dev)
+
+## Contact
+- LinkedIn: https://www.linkedin.com/in/robert-dorheim-56972140/
+- GitHub: https://github.com/Robert-Dor
+
+## FAQ
+**What does an email developer do?**
+An email developer hand-codes HTML and CSS email templates using table layouts, inline styles, and Outlook-specific markup so they render correctly in Gmail, Outlook, Apple Mail, and other clients, then builds and tests them in the platform that sends them.
+
+**What does Robert Dorheim specialize in?**
+Robert Dorheim is an email and web developer. He codes HTML email, donation pages, and surveys for national non-profit, political, and advocacy organizations, builds and schedules campaigns directly in the sending platform, and designs and builds simple, secure websites for small businesses. He works across at least eleven email and CRM platforms and also handles technical SEO, structured data, and AEO and GEO.
+
+**Which email and CRM platforms has he worked in?**
+Salesforce, Pardot, HubSpot, Mailchimp, Engaging Networks, Virtuous, DotDigital, NGP, Bonterra, ActionKit, and EveryAction.
+
+**How are emails tested before sending?**
+Every email is checked in Litmus and Email on Acid for cross-client rendering, including how images display in each client, and images are edited when they don't render correctly. Link, content, and deliverability QA happen before it is scheduled, and campaigns can also be set up with A/B tests.
+
+**Are the emails in the portfolio client work?**
+No. The three portfolio emails are personal recreations of emails from Robert's own inbox, built to show his coding on his own template. They are not client work and are not affiliated with or endorsed by the brands shown.
+
+**Is Robert available for work?**
+Yes. He is open to full-time email developer roles and consulting. He can be reached through the contact form on this page or on LinkedIn.
+
+**Does Robert build websites too?**
+Yes. Alongside email, he builds simple, secure websites for small businesses, such as bipitybopitycakes.com, a site for a home-based custom cake bakery in Lodi, California.
